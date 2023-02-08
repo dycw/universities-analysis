@@ -174,7 +174,7 @@ def get_dataframe_of_scores(names: list[str], /) -> DataFrame:
     df = Series(names, name="Name").to_frame()
     df["Rank2022"] = df.Name.map(partial(get_metric, metric="Rank2022"))
     df["Score"] = df.Name.map(get_metric)
-    return df.sort_values("Rank2022", ascending=False).reset_index(drop=True)
+    return df.sort_values("Rank2022").reset_index(drop=True)
 
 
 BST_SCORES, LFIT_SCORES = map(
