@@ -1,1 +1,1 @@
-# `dycw-template`
+# `universities-analysis`

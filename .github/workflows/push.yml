@@ -15,7 +15,5 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         with:
           strategy: regex
-          root: .bumpversion.cfg
-          regex_pattern: 'current_version = (?<version>\d+\.\d+\.\d+)'
-          # root: src/dycw_template/__init__.py
-          # regex_pattern: '__version__ = "(?<version>\d+\.\d+\.\d+)"'
+          root: src/universities_analysis/__init__.py
+          regex_pattern: '__version__ = "(?<version>\d+\.\d+\.\d+)"'
