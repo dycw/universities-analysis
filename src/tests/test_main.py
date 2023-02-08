@@ -1,4 +1,4 @@
-from dycw_template import __version__
+from universities_analysis import __version__
 
 
 def test_main() -> None:
