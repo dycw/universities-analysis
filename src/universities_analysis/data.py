@@ -16,16 +16,16 @@ BST_DESTINATIONS = [
     "Smith College",
     "The University of British Columbia",
     "The University of Sheffield",
-    "University College London",
     "United International Business Schools",
+    "University College London",
     "University of Birmingham",
     "University of Oxford",
     "University of Southampton",
-    "University of the Arts London",
-    "University of Toronto",
     "University of Toronto Scarborough",
+    "University of Toronto",
     "University of Waterloo",
     "University of Westminster",
+    "University of the Arts London",
     "Utrecht University",
 ]
 LFIT_DESTINATIONS = [
@@ -74,7 +74,7 @@ LFIT_DESTINATIONS = [
     "Université Libre",
     "University of Mechelen",
     # Italy
-    "Università Cattolica del Sacro Cuore Medicine and Surgery program",
+    "Università Cattolica del Sacro Cuore",
     "LUISS Guido Carli",
     "Bocconi School of Management",
     # Germany

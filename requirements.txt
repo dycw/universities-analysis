@@ -10,8 +10,12 @@ click==8.1.3
     # via dycw-utilities
 dycw-utilities[click,pandas]==0.5.3
     # via universities-analysis (pyproject.toml)
+et-xmlfile==1.1.0
+    # via openpyxl
 numpy==1.24.2
     # via pandas
+openpyxl==3.1.0
+    # via universities-analysis (pyproject.toml)
 pandas==1.5.3
     # via dycw-utilities
 python-dateutil==2.8.2

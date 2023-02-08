@@ -47,7 +47,7 @@ dynamic = ["version"]
 readme = "README.md"
 requires-python = ">= 3.11"
 authors = [{ name = "Derek Wan", email = "d.wan@icloud.com" }]
-dependencies = ["dycw-utilities[click,pandas] >= 0.5.3"]
+dependencies = ["dycw-utilities[click,pandas] >= 0.5.3", "openpyxl >= 3.1.0"]
 
 [project.optional-dependencies]
 dev = [
