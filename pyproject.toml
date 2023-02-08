@@ -47,12 +47,14 @@ dynamic = ["version"]
 readme = "README.md"
 requires-python = ">= 3.11"
 authors = [{ name = "Derek Wan", email = "d.wan@icloud.com" }]
-dependencies = []
+dependencies = ["dycw-utilities[click,pandas] >= 0.5.3"]
 
 [project.optional-dependencies]
 dev = [
   "black",
   "hatch",
+  "jupyterlab",
+  "jupyterlab-vim",
   "pip-tools",
   "pytest",
   "pytest-cov",
