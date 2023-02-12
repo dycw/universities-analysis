@@ -73,7 +73,7 @@ defusedxml==0.7.1
     # via nbconvert
 distlib==0.3.6
     # via virtualenv
-dycw-utilities[click,pandas]==0.5.3
+dycw-utilities[click,pandas]==0.5.8
     # via universities-analysis (pyproject.toml)
 editables==0.3
     # via hatchling
@@ -93,7 +93,7 @@ h11==0.14.0
     # via httpcore
 hatch==1.6.3
     # via universities-analysis (pyproject.toml)
-hatchling==1.12.2
+hatchling==1.13.0
     # via hatch
 httpcore==0.16.3
     # via httpx
@@ -116,7 +116,7 @@ ipykernel==6.21.1
     # via
     #   nbclassic
     #   notebook
-ipython==8.9.0
+ipython==8.10.0
     # via
     #   ipykernel
     #   jupyterlab
@@ -356,7 +356,7 @@ rfc3986-validator==0.1.1
     # via jsonschema
 rich==13.3.1
     # via hatch
-ruff==0.0.243
+ruff==0.0.245
     # via universities-analysis (pyproject.toml)
 secretstorage==3.3.3
     # via keyring
@@ -446,7 +446,7 @@ y-py==0.5.5
     #   ypy-websocket
 ypy-websocket==0.8.2
     # via jupyter-server-ydoc
-zipp==3.12.1
+zipp==3.13.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
